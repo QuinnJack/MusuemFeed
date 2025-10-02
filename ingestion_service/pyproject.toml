@@ -1,0 +1,22 @@
+[project]
+name = "culture-museums-feed"
+version = "0.1.0"
+description = "FastAPI microservice for ingesting and serving museum news feeds"
+authors = [{ name = "Culture Museums" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlmodel",
+    "pydantic",
+    "feedparser",
+    "httpx",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

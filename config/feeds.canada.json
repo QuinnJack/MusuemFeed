@@ -1,0 +1,24 @@
+[
+  {
+    "name": "National Gallery of Canada",
+    "url": "https://www.gallery.ca/whats-on/rss",
+    "region": "canada",
+    "topics": ["exhibitions", "events"],
+    "language": "en"
+  },
+  {
+    "name": "Royal Ontario Museum",
+    "url": "https://www.rom.on.ca/en/about-us/newsroom/rss.xml",
+    "region": "canada",
+    "topics": ["museum", "culture"],
+    "language": "en"
+  },
+  {
+    "name": "Montreal Museum of Fine Arts",
+    "url": "https://www.mbam.qc.ca/en/feed/",
+    "region": "canada",
+    "topics": ["art", "exhibitions"],
+    "language": "fr",
+    "summary_hint": "Met en avant les aspects bilingues."
+  }
+]

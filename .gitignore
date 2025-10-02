@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+.env
+venv/
+.venv/
+data/
+wp-plugin/culture-museums-news/node_modules/
+wp-plugin/culture-museums-news/build/*.map
